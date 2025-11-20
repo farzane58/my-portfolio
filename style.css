@@ -95,6 +95,32 @@ p{
     margin-top: 20px;
 
 }
+#footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8dada;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 40px;
+    border-top: 2px solid #e5b1b1;
+}
+#footer a{
+    color: #d14a7c;
+    text-decoration: none;
+    font-weight: bold;
+}
+#footer a:hover{
+    text-decoration: underline;
+}
+.project-tile a,.certificate a{
+    text-decoration: none;
+}
+.project-tile a:hover,.certificate a:hover{
+    text-decoration: underline;
+}
+
 
 
 
