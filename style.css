@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+
+}
+.container{
+    width: 800px;
+    height: auto;
+    border: 1px solid pink;
+    background-color: #fff0f5;
+    margin: 50px auto;
+    padding: 30px;
+}
+#navbar{
+    display: flex;
+    gap: 40px;
+    
+    margin-left: 40px;
+    
+    
+    max-width: 100%;
+
+}
+#wel-img{
+    width: 100px;
+    height: 100px;
+    
+}
+#welcome-section{
+    margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 40px;
+   margin-bottom: 50px;
+ 
+
+}
+.project-tile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.project-tile a{
+    color: black;
+}
+
+
+#about-me{
+    margin-left: 5vw;
+    margin-top: 60px;
+}
+p{
+    text-align: justify;   
+}
+#navbar a{
+    text-decoration: none;
+}
+.certificate{
+    display: block;
+    margin-top: 10px;
+    color: #007acc;
+    
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.certificate h2{
+    color:black ;
+    margin-bottom: 15px;
+}
+.certificate a{
+    display: block;
+    color: black;
+    margin-top: 20px;
+}
+
+.currentlylearning{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.currentlylearning h2{
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+@media screen and (max-width:900px){
+   .container{
+    width: 100%;
+    
+   } 
+    
+}
+
+    
+
+
