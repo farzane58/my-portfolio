@@ -135,6 +135,9 @@ p{
    #footer{
     flex-direction: column;
    } 
+   #about-me{
+    font-size: 14px;
+   }
     
 }
 
