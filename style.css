@@ -134,9 +134,11 @@ p{
    }
    #footer{
     flex-direction: column;
+    gap: 10px;
    } 
    #about-me{
     font-size: 14px;
+    padding: 8px;
    }
     
 }
