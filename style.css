@@ -8,7 +8,7 @@ body{
 
 }
 .container{
-    width: 800px;
+   max-width: 800px; 
     height: auto;
     border: 1px solid pink;
     background-color: #fff0f5;
@@ -145,10 +145,10 @@ p{
     padding: 8px;
    }
    h1{
-    font-size:20px ;
+    font-size:22px ;
    }
    #navbar{
-        margin-left: 10px;
+        margin-left: 7px;
 
    }
 
